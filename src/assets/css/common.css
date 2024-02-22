@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #ff9854;
+
+    /* 全局修改搜索框搜索图标的颜色 */
+    --van-search-left-icon-color: var(--primary-color) !important;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hidden-tab-bar {
+    position: relative;
+    z-index: 9;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: #fff;
+}
